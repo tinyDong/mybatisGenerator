@@ -51,38 +51,17 @@
             <property name="enableSubPackages" value="false" />
         </javaClientGenerator>
         <!-- 指定数据库表 -->
-        <table schema="" tableName="margin_order"
+        <table schema="" tableName="recharge_online_order"
                      enableCountByExample="false" enableUpdateByExample="false"
                     enableDeleteByExample="false" enableSelectByExample="false"
                        selectByExampleQueryId="false">
 
         </table>
-        <table schema="" tableName="margin_add_record"
+        <table schema="" tableName="recharge_pay"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">
 
         </table>
-        <table schema="" tableName="margin_config"
-               enableCountByExample="false" enableUpdateByExample="false"
-               enableDeleteByExample="false" enableSelectByExample="false"
-               selectByExampleQueryId="false">
-
-        </table>
-        <table schema="" tableName="margin_delivery"
-               enableCountByExample="false" enableUpdateByExample="false"
-               enableDeleteByExample="false" enableSelectByExample="false"
-               selectByExampleQueryId="false">
-
-        </table>
-        <table schema="" tableName="margin_invest_balance"
-               enableCountByExample="false" enableUpdateByExample="false"
-               enableDeleteByExample="false" enableSelectByExample="false"
-               selectByExampleQueryId="false">
-
-        </table>
-
-
-
     </context>
 </generatorConfiguration>
